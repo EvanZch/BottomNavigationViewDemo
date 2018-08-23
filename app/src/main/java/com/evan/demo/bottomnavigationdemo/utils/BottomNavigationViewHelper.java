@@ -10,7 +10,6 @@ import java.lang.reflect.Field;
 
 /**
  * https://blog.csdn.net/aiynmimi/article/details/72967585
- * 取消BottomNavigationView的item大于三个时,自动播放选择动画
  */
 
 public class BottomNavigationViewHelper {

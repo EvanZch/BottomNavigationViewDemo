@@ -13,6 +13,12 @@
         android:layout_height="50dp"
         android:background="@color/black_2c"
         app:titleTextColor="@color/write" />
+    <FrameLayout
+        android:id="@+id/ll_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bv_bottomNavigation"
+        android:layout_below="@id/toolbar"/>
 
 
     <android.support.design.widget.BottomNavigationView
@@ -21,9 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@color/write"
-        app:elevation="16dp"
         app:itemIconTint="@drawable/bottom_navigation_item_selector"
         app:itemTextColor="@drawable/bottom_navigation_item_selector"
         app:menu="@menu/main_bottom_navigation" />
-
 </RelativeLayout>

@@ -4,27 +4,27 @@
 
 
     <item
-        android:id="@+id/message"
+        android:id="@+id/menu_message"
         android:enabled="true"
         android:icon="@mipmap/message"
         app:showAsAction="ifRoom"
         android:title="消息" />
     <item
-        android:id="@+id/contacts"
+        android:id="@+id/menu_contacts"
         android:enabled="true"
         android:icon="@mipmap/icon_contacts"
         app:showAsAction="ifRoom"
 
         android:title="联系人" />
     <item
-        android:id="@+id/discover"
+        android:id="@+id/menu_discover"
         android:enabled="true"
         android:icon="@mipmap/icon_discover"
         app:showAsAction="ifRoom"
 
         android:title="发现" />
     <item
-        android:id="@+id/me"
+        android:id="@+id/menu_me"
         android:enabled="true"
         app:showAsAction="ifRoom"
 
