@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void initView() {
         mToolbar = findViewById(R.id.toolbar);
-        mBottomNavigationView = findViewById(R.id.bv_bottomNavigation);
+
     }
 
     public void initData() {
@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void initBottomNavigation() {
+        mBottomNavigationView = findViewById(R.id.bv_bottomNavigation);
+        // 解决当item大于三个时，非平均布局问题
         BottomNavigationViewHelper.disableShiftMode(mBottomNavigationView);
         mBottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -70,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.menu_me:
                         setFragmentPosition(3);
                         break;
-
                     default:
                         break;
                 }
