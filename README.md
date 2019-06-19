@@ -1,5 +1,5 @@
 
-
+<a title="Hits" target="_blank" href="https://github.com/EvanZch/BottomNavigationViewDemo"><img src="https://EvanZch/BottomNavigationViewDemo.org/EvanZch/BottomNavigationViewDemo.svg"></a>
 效果图：
 
 
